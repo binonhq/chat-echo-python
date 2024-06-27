@@ -1,0 +1,16 @@
+sanic~=23.12.1
+sanic-cors
+sanic-session
+sanic-openapi
+sanic-testing
+termcolor~=2.4.0
+python-dotenv~=1.0.1
+jsonschema~=4.21.1
+click
+PyJWT~=2.8.0
+
+TTS~=0.22.0
+torch~=2.1.2
+numpy~=1.22.0
+torchaudio~=2.1.2
+pymongo~=4.7.3
