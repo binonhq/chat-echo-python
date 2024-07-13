@@ -17,10 +17,6 @@ class Config:
     }
 
 
-class TTSConfig:
-    TTS_PATH = os.environ.get('TTS_PATH', 'venv/lib/python3.10/site-packages/TTS/.models.json')
-
-
 class MongoDBConfig:
     USERNAME = os.environ.get("MONGO_USERNAME") or "nhquan239"
     PASSWORD = os.environ.get("MONGO_PASSWORD") or "admin123"

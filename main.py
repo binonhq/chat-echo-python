@@ -2,9 +2,9 @@ from sanic.response import text
 
 from app import create_app
 from app.apis import api
-from config import Config, TTSConfig
+from config import Config
 
-app = create_app(Config, TTSConfig)
+app = create_app(Config)
 app.blueprint(api)
 
 
